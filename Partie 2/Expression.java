@@ -1,4 +1,4 @@
 abstract class Expression {
     // Méthode abstraite pour retourner la valeur de l'expression
-    public abstract int valeur();
+    public abstract double valeur();
 }
