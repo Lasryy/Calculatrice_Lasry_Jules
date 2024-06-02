@@ -12,7 +12,7 @@ public class TestOperation {
             Expression d = new Division(s, a);
 
             // Affichage du résultat
-            System.out.println(d + " = " + d.valeur()); // doit afficher : ((17 - 2) / (2 + 3)) = 3.0
+            System.out.println(d + " = " + d.valeur()); // doit afficher : ((17.0 - 2.0) / (2.0 + 3.0)) = 3.0
 
         } catch (IllegalArgumentException e) {
             // Gestion de l'exception pour la division par zéro
