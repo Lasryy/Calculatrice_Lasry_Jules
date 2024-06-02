@@ -17,6 +17,13 @@ public class TestOperation {
         } catch (IllegalArgumentException e) {
             // Gestion de l'exception pour la division par zéro
             System.err.println("Erreur: " + e.getMessage());
-        }
+        }   
     }
+    
+       /* 
+        public static Expression fabriqueExpression(String e) {
+
+            Pas réussi
+
+        }*/ 
 }
